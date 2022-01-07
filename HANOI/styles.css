@@ -3,6 +3,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   margin: 0;
+  scroll-behaviour:smooth
 }
 
 .container {
@@ -11,7 +12,7 @@ body {
 }
 
 header {
-  background-color: rgb(61,66,64);
+  background-color: #131313;
   height:100px;
   weight:50px;
 }
@@ -90,6 +91,65 @@ nav a:hover::before {
   text-align: center;
   opacity:0.2;
   position: static;
+}
 
+.storytime {
+  font-family: 'Chivo', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  margin-top: 110px;
+}
 
+.meny {
+  font-family: 'Chivo', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  margin-top: 500px;
+  color:white;
+  text-align: center;
+}
+
+.kontakt {
+  font-family: 'Chivo', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  margin-top: 500px;
+  color:white;
+  text-align: center;
+  text-decoration: overline;
+}
+
+#telefon {
+  font-family: 'Chivo', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  color:white;
+  text-align: center;
+}
+
+.hitta {
+  font-family: 'Chivo', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  margin-top: 500px;
+  color:white;
+  text-align: center;
+}
+
+#map {
+  float:center;
+  margin-left:200px;
+  padding-bottom:200px;
+  padding-left:50px;
+  display:inline-block;
+
+}
+
+.öppettider {
+  float:left;
+  font-family: 'Chivo', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  color:white;
+  padding-left:70px;
 }
