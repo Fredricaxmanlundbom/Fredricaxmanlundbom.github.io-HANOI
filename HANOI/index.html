@@ -2,8 +2,8 @@
 <html>
 <head>
   <link href="styles.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Chivo:300,700|Playfair+Display:700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caladea&family=Spartan:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caladea&family=Frank+Ruhl+Libre:wght@300&family=Spartan:wght@500&display=swap" rel="stylesheet">
   <meta charset="utf-8">
   <title>Hanoi Kitchen</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,7 +20,7 @@
 
 
     <div class="container">
-      <img src="pics/logo.png" alt="logo" class="logo">
+  <!--  <img src="Bilder/logo.png" alt="logo" class="logo"> -->
       <nav>
         <ul>
           <li><a href="#">Hem</a></li>
@@ -35,12 +35,38 @@
     </div>
   </header>
 
+<script src="slideshow.js"></script>
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <img src="Bilder/storytime.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="bilder/storytime2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="bilder/storytime3.jpg" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+   <a class="next" onclick="plusSlides(1)">&#10095;</a>
+ </div>
+ <br>
+
+ <div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+
   <a id="storytime"></a>
   <div class="storytime">
     <h2> HANOI PHO - HELA VÄGEN FRÅN VIETNAM! </h2>
-    <img src="pics/hbstrand.jped.jpg" alt="storyphoto" class="storyphoto">
   <h3>Ett vietnamesisk kök där streetfood möter traditionella maträtter, lagat med själ och hjärta.</h3>
   </div>
+
 
 
 <a id="meny"></a>
@@ -73,8 +99,7 @@
 
       <p><div style="-webkit-filter: grayscale(100%);filter: grayscale(100%);">
       <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8138.421386817811!2d17.99627844589676!3d59.33954250659725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9d8626bcc19f%3A0x26ded24e02954419!2sMoa%20Martinsons%20Torg%208%2C%20112%2016%20Stockholm!5e0!3m2!1ssv!2sse!4v1641554807665!5m2!1ssv!2sse" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p>
-
-
+</div>
 
 
 </body>
