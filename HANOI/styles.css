@@ -106,7 +106,7 @@ nav a:hover::before {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: auto;
   position: relative;
   margin: auto;
 }
