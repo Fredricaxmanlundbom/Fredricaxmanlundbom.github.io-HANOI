@@ -1,6 +1,6 @@
 body {
   background: #131313;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Caladea', serif;
   font-weight: 300;
   margin: 0;
   scroll-behaviour:smooth
@@ -49,7 +49,7 @@ nav li {
 }
 
 nav a {
-  color:#a6a1a1;
+  color:#dadada;
   text-decoration: none;
   text-transform: uppercase;
   font-size:14px;
@@ -94,14 +94,43 @@ nav a:hover::before {
 }
 
 .storytime {
-  font-family: 'Chivo', sans-serif;
+  font-family: 'Frank Ruhl Libre', serif;
   font-weight: 700;
   font-style: italic;
   margin-top: 110px;
+  padding-left:8%;
+  padding-right:8%;
+  box-sizing: border-box;
 }
 
+.slideshow-container {
+  margin: 8px auto;
+  position: relative;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.slideshow-container > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+
+/* .logo {
+  weight:50px;
+  height:50px;
+  padding-right: 50px;
+  margin-right: 50%;
+  padding-top:50px;
+}
+*/
+
 .meny {
-  font-family: 'Chivo', sans-serif;
+  font-family: 'Frank Ruhl Libre', serif;
   font-weight: 700;
   font-style: italic;
   margin-top: 500px;
@@ -110,7 +139,7 @@ nav a:hover::before {
 }
 
 .kontakt {
-  font-family: 'Chivo', sans-serif;
+  font-family: 'Frank Ruhl Libre', serif;
   font-weight: 700;
   font-style: italic;
   margin-top: 500px;
@@ -120,7 +149,7 @@ nav a:hover::before {
 }
 
 #telefon {
-  font-family: 'Chivo', sans-serif;
+  font-family: 'Frank Ruhl Libre', serif;
   font-weight: 700;
   font-style: italic;
   color:white;
@@ -128,7 +157,7 @@ nav a:hover::before {
 }
 
 .hitta {
-  font-family: 'Chivo', sans-serif;
+  font-family: 'Frank Ruhl Libre', serif;
   font-weight: 700;
   font-style: italic;
   margin-top: 500px;
@@ -150,7 +179,7 @@ nav a:hover::before {
 
 .öppettider {
   float:left;
-  font-family: 'Chivo', sans-serif;
+  font-family: 'Frank Ruhl Libre', serif;
   font-weight: 700;
   font-style: italic;
   color:white;
