@@ -5,15 +5,12 @@
   <link href="styles.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css2?family=Caladea&family=Spartan:wght@500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Caladea&family=Frank+Ruhl+Libre:wght@300&family=Spartan:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="jquery.flipster.min.css">
   <meta charset="utf-8">
   <title>Hanoi Kitchen</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
 </head>
 
-
-<!-- Img src=source link to pic. "alt = description of the img class="logo" calling logo for styling "-->
 
 <body>
 
@@ -42,6 +39,12 @@
       </nav>
     </div>
   </header>
+
+  <a id="storytime"></a>
+  <div class="storytime">
+    <h2> HANOI PHO </h2>
+    <h3>Ett vietnamesisk kök där streetfood möter traditionella maträtter, lagat med själ och hjärta.</h3>
+  </div>
 
   <div class="slideshow-container">
     <div class="mySlides fade">
@@ -83,22 +86,36 @@ function showSlides() {
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 3000); // Change image every 2 seconds
 }
-</script>
+</script></div>
 
-
-
-
-    <a id="storytime"></a>
-    <div class="storytime">
-      <h2> HANOI PHO - HELA VÄGEN FRÅN VIETNAM! </h2>
-      <h3>Ett vietnamesisk kök där streetfood möter traditionella maträtter, lagat med själ och hjärta.</h3>
-    </div>
 
     <a id="meny"></a>
     <div class="meny">
-      <h3>MENY</h3>
-      <img src="">
+      <h3>GALLERI</h3>
     </div>
+
+
+    <div class="hero">
+      <div class="carousel">
+        <ul>
+          <li><img src="menybilder2/1. Bun thit nuong.png"></li>
+          <li><img src="menybilder2/2. GÀ XÀO SẢ ỚT – KYCKLING BOWL.png"></li>
+          <li><img src="menybilder2/3. BÒ XÀO – BIFF BOWL.png"></li>
+          <li><img src="menybilder2/4. TÔM XÀO – SHRIMP BOWL.png"></li>
+        </ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="jquery.flipster.min.js"></script>
+
+    <script>
+        $('.carousel').flipster({
+          style:'carousel',
+          spacing: -0.3,
+        });
+    </script></div></div>
+
+
 
     <a id="kontakt"></a>
     <div class="kontakt">
